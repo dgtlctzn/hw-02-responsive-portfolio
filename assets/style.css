@@ -5,3 +5,26 @@ body {
     background-repeat: repeat;
     background-position: cover;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.sub-row-1 {
+    /* margin: 65px 0 0 30px; */
+    height: 40px;
+    background-color: white;
+    color: teal;
+}
+
+.sub-row {
+    /* margin: 65px 0 0 30px; */
+    height: 225px;
+    background-color: white;
+}
+
+.about-me {
+    margin: 65px 0 0 30px;
+}
