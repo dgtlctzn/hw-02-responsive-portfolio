@@ -1,30 +1,54 @@
 body {
-    height: 400px;
     width: 100%;
     background-image: url(./ignasi_pattern_s.png);
     background-repeat: repeat;
     background-position: cover;
+    font-family: 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 210px;
+    width: 210px;
     float: left;
+    padding: 7px 15px 0 0;
 }
 
-.sub-row-1 {
-    /* margin: 65px 0 0 30px; */
-    height: 40px;
-    background-color: white;
-    color: teal;
-}
-
-.sub-row {
-    /* margin: 65px 0 0 30px; */
-    height: 225px;
-    background-color: white;
+h1 {
+    padding-top: 15px;
 }
 
 .about-me {
-    margin: 65px 0 0 30px;
+    margin: 65px 0;
+    height: 80%;
+}
+
+.sub-row-1 {
+    height: 75px;
+    background-color: white;
+    color: teal;
+    /* padding: 10px; */
+}
+
+.sub-row-2 {
+    height: 60%;
+    background-color: white;
+    padding: 10px 10px 10px 0;
+}
+
+.sub-row-3 {
+    height: 20%;
+    background-color: white;
+    padding: 10px 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        height: 175px;
+        width: 175px;
+    }
+    
+    .sub-row-3 {
+        padding-top: 30px;
+    }
 }
