@@ -8,11 +8,23 @@ body {
     font-size: 22px;
 }
 
-img {
+#about-me-img {
     height: 210px;
     width: 210px;
     float: left;
     padding: 7px 15px 7px 0;
+}
+
+.portfolio-img {
+    height: auto;
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.row-color {
+    background-color: white;
+    width: auto;
 }
 
 p {
@@ -20,18 +32,18 @@ p {
     font-size: 14px;
 }
 
-#name {
+.name {
     background-color: rgb(28, 156, 150);
     color: white;
 }
 
-#about-me {
+.content-box {
     display: inline-block;
     margin: 65px 0;
     height: 80%;
 }
 
-#sub-row-1 {
+.sub-row-1 {
     padding: 15px 0 0 10px;
     height: 75px;
     background-color: white;
@@ -45,10 +57,15 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    img {
+    #about-me-img {
         height: 175px;
         width: 175px;
     }
+
+    .portfolio-img {
+        width: 100%;
+    }
+
 }
 
 .footer {
@@ -66,7 +83,7 @@ p {
 }
 
 @media screen and (min-width: 1196px) {
-    .footer {
+    #about-me-footer {
         position: fixed;
         bottom: 0;
     }
