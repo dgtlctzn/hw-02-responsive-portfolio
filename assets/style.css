@@ -56,6 +56,12 @@ p {
     padding: 15px 10px 40px 10px;
 }
 
+.contact-box {
+    background-color: white;
+    margin: 65px 0;
+    height: 80%;
+}
+
 @media screen and (max-width: 768px) {
     #about-me-img {
         height: 175px;
