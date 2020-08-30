@@ -58,8 +58,15 @@ p {
 
 .contact-box {
     background-color: white;
-    margin: 65px 0;
+    margin: 65px 20px 0 20px;
+    padding: 20px;
     height: 80%;
+}
+
+#form {
+    padding: 10px 20px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,6 +93,11 @@ p {
     text-align: center;
     padding-top: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contact-footer {
+    position: fixed;
+    bottom: 0;
 }
 
 @media screen and (min-width: 1196px) {
