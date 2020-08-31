@@ -8,6 +8,19 @@ body {
     font-size: 22px;
 }
 
+.content-box {
+    display: inline-block;
+    margin: 65px 0;
+    height: 80%;
+}
+
+.page-header {
+    padding: 15px 0 0 10px;
+    height: 75px;
+    background-color: white;
+    color: rgb(28, 156, 150);
+}
+
 #about-me-img {
     height: 210px;
     width: 210px;
@@ -35,19 +48,6 @@ p {
 #my-name {
     background-color: rgb(28, 156, 150);
     color: white;
-}
-
-.content-box {
-    display: inline-block;
-    margin: 65px 0;
-    height: 80%;
-}
-
-.page-header {
-    padding: 15px 0 0 10px;
-    height: 75px;
-    background-color: white;
-    color: rgb(28, 156, 150);
 }
 
 #article {
