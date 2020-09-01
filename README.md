@@ -8,9 +8,9 @@ I created an "About Me" website to match a given style with the use of HTML and 
 The most important feature of the website is that it is  optimized for mobile devices. CSS Bootstrap was used to create a grid system that enabled clean media breakpoints when resizing the window. The target viewpoints for media viewing are pixel widths of 400, 768, and 992. The difference in the about me page can be seen in the following screen widths of 400 and 992 pixels:
 
 <img src="./assets/400_px_example.png" alt="400"
-	title="A cute kitten" width="150" height="300" />
+	width="150" height="300" />
 <img src="./assets/992_px_example.png" alt="992"
-	title="A cute kitten" width="300" height="250" />  
+	width="300" height="250" />  
 ## Usage
 The site can be accessed with the following link:
 
