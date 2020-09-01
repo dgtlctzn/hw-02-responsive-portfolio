@@ -118,7 +118,7 @@ figure {
     bottom: 0;
 }
 
-@media screen and (min-width: 1196px) {
+@media screen and (min-width: 992px) {
     #about-me-footer {
         position: fixed;
         bottom: 0;
